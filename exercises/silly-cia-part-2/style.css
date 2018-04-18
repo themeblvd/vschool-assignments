@@ -1,0 +1,23 @@
+h1 {
+    color: #1e6513;
+}
+h1,
+h2 {
+    font-family: 'Georgia';
+    text-align: center;
+}
+p {
+    line-height: 25px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.also {
+    text-transform: uppercase;
+}
+img {
+    float: left;
+}
