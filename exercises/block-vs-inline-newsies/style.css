@@ -1,0 +1,58 @@
+/* Layout */
+#container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Classifieds */
+.classifieds {
+    margin-bottom: 40px;
+}
+.classifieds h3 {
+    margin: 0 0 10px 0;
+}
+.classifieds ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.classifieds li {
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    padding: 15px;
+}
+.classifieds li:last-child {
+    margin-right: 0;
+}
+
+/* Article */
+.content {
+    display: flex;
+}
+.column {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    width: 33.333%
+}
+.column:last-child {
+    margin-right: 0;
+}
+.highlight {
+    background-color: #ffffe0;
+    color: green;
+    display: inline-block;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 5px;
+}
+.grey {
+    color: #666;
+    font-style: italic;
+    font-weight: bold;
+}
