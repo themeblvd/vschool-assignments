@@ -1,5 +1,5 @@
 body {
-    background: #111111;
+    background: #111;
 }
 h1 {
     color: #e2e80f;
@@ -11,7 +11,7 @@ p {
     line-height: 1.6;
 }
 p span.credits {
-    color: #49DAFF;
+    color: #49daff;
     cursor: pointer;
     text-decoration: underline;
 }
