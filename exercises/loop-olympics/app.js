@@ -66,16 +66,23 @@ for ( let i = 0; i < peopleArray.length; i++ ) {
     occupations.push( peopleArray[i].occupation );
 }
 
-names = ['Harrison Ford'];
-occupations = ['Singer'];
+// console.log( names );
+// console.log( occupations );
+
+names = [];
+occupations = [];
 
 for ( let i = 0; i < peopleArray.length; i++ ) {
 
-    if ( i % 2 == 0 ) {
+    if ( i == 0 || i % 2 == 0 ) {
         names.push( peopleArray[i].name );
+    } else {
         occupations.push( peopleArray[i].occupation );
     }
 }
+
+// console.log( names );
+// console.log( occupations );
 
 // Gold Medal
 let grid = [];
