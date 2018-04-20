@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+.row {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin: -5px;
+    transform: translate(-50%, 0);
+    width: 800px;
+}
+.column {
+    float: left;
+    padding: 5px;
+}
+.column-3 {
+    width: 25%;
+}
+.column-6 {
+    width: 50%;
+}
+.column-9 {
+    width: 75%;
+}
+.column-12 {
+    width: 100%;
+}
+.column > .wrap {
+    height: 100px;
+}
+
+/* Colors */
+.pink {
+    background-color: #f5c6d6;
+}
+.hot-pink {
+    background-color: #ee2e84;
+}
+.blue {
+    background-color: #85cfd8;
+}
+.green {
+    background-color: #8dc63f;
+}
+.orange {
+    background-color: #e76e34;
+}
