@@ -1,0 +1,83 @@
+/* Reset */
+body, html, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    color: #555;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1, h2 {
+    color: #333;
+}
+
+/* Layout */
+#container {
+    margin: 0 auto;
+    padding: 100px 40px 40px 40px;
+    max-width: 800px;
+}
+
+/* Header */
+.site-header {
+    background: #101010;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.site-header > .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+.site-header h1 {
+    color: #fff;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+.site-header ul {
+    display: flex;
+    list-style: none;
+}
+.site-header ul a {
+    color: #ccc;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+.site-header ul a:hover {
+    color: #fff;
+}
+
+/* Main */
+.main article {
+    margin-bottom: 40px;
+}
+.main header {
+    margin-bottom: 20px;
+}
+.main h2 {
+    margin-bottom: 0;
+}
+.main span {
+    color: #888;
+    font-style: italic;
+}
+.main img {
+    float: left;
+    margin: 5px 20px 0 0;
+    width: 100px;
+}
