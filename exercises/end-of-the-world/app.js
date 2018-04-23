@@ -4,6 +4,8 @@
 
     var count = 20; // seconds
 
+    count++;
+
     var runTimer = setInterval( function() {
 
         count--;
