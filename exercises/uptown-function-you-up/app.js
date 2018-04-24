@@ -38,10 +38,8 @@ function printEveryOtherLyric( lyrics ) {
 
     var reverseLyrics = [];
 
-    for ( let i = 0; i < lyrics.length; i++ ) {
-        if ( i % 2 === 0 ) {
-            reverseLyrics.push( lyrics[i] );
-        }
+    for ( let i = 0; i < lyrics.length; i += 2 ) {
+        reverseLyrics.push( lyrics[i] );
     }
 
     console.log( reverseLyrics.join( ' ' ) );
@@ -59,11 +57,9 @@ function printLyricSwap( lyrics ) {
 
     var print = [];
 
-    for ( let i = 0; i < lyrics.length; i++ ) {
-        if ( i % 2 === 0 ) {
-            print.push( lyrics[ i + 1 ] );
-            print.push( lyrics[ i ] );
-        }
+    for ( let i = 0; i < lyrics.length; i += 2 ) {
+        print.push( lyrics[ i + 1 ] );
+        print.push( lyrics[ i ] );
     }
 
     console.log( print.join( ' ' ) );
