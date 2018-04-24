@@ -16,7 +16,7 @@ function printLyrics( lyrics ) {
     console.log( lyrics.join( ' ' ) );
 }
 
-// printLyrics( lyrics );
+printLyrics( lyrics );
 
 /**
  * 2. The second function will do the same thing, but print
