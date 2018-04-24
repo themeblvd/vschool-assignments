@@ -39,25 +39,25 @@
 
     document.addEventListener( 'keypress', function( event ) {
 
-        switch ( event.code ) {
+        switch ( event.key ) {
 
-            case 'KeyB':
+            case 'b':
                 square.style.backgroundColor = 'blue';
                 break;
 
-            case 'KeyR':
+            case 'r':
                 square.style.backgroundColor = 'red';
                 break;
 
-            case 'KeyY':
+            case 'y':
                 square.style.backgroundColor = 'yellow';
                 break;
 
-            case 'KeyG' :
+            case 'g' :
                 square.style.backgroundColor = 'green';
                 break;
 
-            case 'KeyO' :
+            case 'o' :
                 square.style.backgroundColor = 'orange';
                 break;
 
