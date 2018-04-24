@@ -7,7 +7,10 @@
      * 2. Red when the mouse button is held down over the square
      * 3. Yellow when the mouse button is let go over the square
      * 4. Green when the mouse is double clicked in the square
-     * 5. Orange when the mouse scroll is used somewhere in the window (not just over the square).
+     * 5. Orange when the mouse scroll is used somewhere in the
+     * window (not just over the square).
+     * 6. Change to one of the five colors if the first letter of
+     * the color is pressed.
      *
      * @link https://coursework.vschool.io/dj-js/
      */
@@ -32,6 +35,37 @@
 
     document.addEventListener( 'scroll', function( event ) {
         square.style.backgroundColor = 'orange';
+    } );
+
+    document.addEventListener( 'keypress', function( event ) {
+
+        switch ( event.code ) {
+
+            case 'KeyB':
+                square.style.backgroundColor = 'blue';
+                break;
+
+            case 'KeyR':
+                square.style.backgroundColor = 'red';
+                break;
+
+            case 'KeyY':
+                square.style.backgroundColor = 'yellow';
+                break;
+
+            case 'KeyG' :
+                square.style.backgroundColor = 'green';
+                break;
+
+            case 'KeyO' :
+                square.style.backgroundColor = 'orange';
+                break;
+
+            default:
+                return;
+
+        }
+
     } );
 
 } )();
