@@ -1,0 +1,72 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #555;
+    font-family: arial;
+    font-size: 16px;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+div {
+    margin-bottom: 20px;
+}
+label {
+    float: left;
+    padding: 5px;
+    width: 50%;
+}
+input {
+    border: 1px solid #ddd;
+    display: block;
+    margin-top: 5px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+input:focus {
+    border-color: #aaa;
+}
+.result {
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+    clear: both;
+    margin: 0 5px;
+    padding: 20px;
+}
+#add-result {
+    background-color: #f8f9e5;
+    border-color: #e3e695;
+}
+#subtract-result {
+    background-color: #e5eaf9;
+    border-color: #859ae0;
+}
+#multiply-result {
+    background-color: #dff4e4;
+    border-color: #85e09a;
+}
+button {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1;
+    margin: 10px 5px;
+    padding: 12px 18px;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #ddd;
+}
