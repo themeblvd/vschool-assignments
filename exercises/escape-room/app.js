@@ -14,11 +14,11 @@
 
 var readlineSync = require( 'readline-sync' );
 
-var result = '';
+var gameOver = false;
 
 var foundKey = false;
 
-while ( ! result ) {
+while ( ! gameOver ) {
 
     var choices = [
         "Put hand in hole.",
@@ -32,7 +32,8 @@ while ( ! result ) {
 
         // Put hand in hole.
         case 0:
-            result = "\nThe hole was bad and you died! Game over.\n";
+            gameOver = true;
+            console.log( "\nThe hole was bad and you died! Game over.\n" );
             break;
 
         // Find the key.
@@ -40,15 +41,16 @@ while ( ! result ) {
             if ( foundKey ) {
                 console.log( "\nYou already have the key.\n" );
             } else {
-                console.log( "\nGood job! You now have the key.\n" );
                 foundKey = true;
+                console.log( "\nGood job! You now have the key.\n" );
             }
             break;
 
         // Open the door.
         case 2:
             if ( foundKey ) {
-                result = "\nScore! You made it through the door! You've won the game.\n";
+                gameOver = true;
+                console.log( "\nScore! You made it through the door! You've won the game.\n" );
             } else {
                 console.log( "\nYou can't open the door without the key.\n" );
             }
@@ -56,10 +58,9 @@ while ( ! result ) {
 
         // Cancel
         default:
-            result = "\nYou've existed the game.\n";
+            gameOver = true;
+            console.log( "\nYou've existed the game.\n" );
 
     }
 
 }
-
-console.log( result );
