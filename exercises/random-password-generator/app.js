@@ -14,7 +14,7 @@ function getPassword( pwLength ) {
 
     for ( var i = 0; i < pwLength; i++ ) {
 
-        var random = Math.floor( Math.random() * Math.floor( possible.length ) );
+        var random = Math.floor( Math.random() * possible.length - 1 );
 
         password.push( possible[ random ] );
 
