@@ -8,19 +8,17 @@
  */
 function getPassword( pwLength ) {
 
-    var password = [];
+    var password = '';
 
     var possible = "!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
     for ( var i = 0; i < pwLength; i++ ) {
 
-        var random = Math.floor( Math.random() * possible.length - 1 );
-
-        password.push( possible[ random ] );
+        password += possible[ Math.floor( Math.random() * possible.length - 1 ) ];
 
     }
 
-    return password.join( '' );
+    return password;
 
 }
 
