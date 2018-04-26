@@ -59,7 +59,7 @@ while ( ! gameOver ) {
         // Cancel
         default:
             gameOver = true;
-            console.log( "\nYou've existed the game.\n" );
+            console.log( "\nYou've exited the game.\n" );
 
     }
 
