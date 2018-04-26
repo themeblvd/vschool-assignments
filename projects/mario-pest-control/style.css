@@ -1,0 +1,377 @@
+/* =Reset
+----------------------------------------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Box Sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* =General
+----------------------------------------------- */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Press+Start+2P');
+
+/* Layout */
+body {
+    background: url('img/bg.jpg') center center no-repeat fixed;
+    background-size: cover;
+    font-family: 'Lato', Arial, serif;
+}
+#container {
+    padding: 20px;
+}
+#mario {
+    display: none;
+}
+@media (min-width: 1050px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    body:before {
+        content: "";
+        background: url('img/bg.jpg') center center no-repeat fixed;
+        background-size: cover;
+        filter: blur(10px);
+        display: block;
+        margin-top: -235px;
+        margin-left: -500px; /* Can't use transform because of fixed background */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 1000px;
+        height: 300px;
+    }
+    #container {
+        padding: 0;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1000px;
+        height: 630px;
+    }
+    #container:before {
+        content: "";
+        background-color: rgba(255, 255, 255, 0.75);
+        border-radius: 2px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+        display: block;
+        position: absolute;
+        top: 80px;
+        width: 1000px;
+        height: 300px;
+    }
+    #mario {
+        display: block;
+        position: absolute;
+        top: -20px;
+        right: 50px;
+    }
+}
+
+/* =Scoreboard
+----------------------------------------------- */
+
+#scoreboard {
+    background: #fff638 url('img/scoreboard-bg.png') center bottom no-repeat;
+    background-size: 475px 480px;
+    border-radius: 2px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    max-width: 475px;
+}
+@media (min-width: 1050px) {
+    #scoreboard {
+        position: absolute;
+        top: 0;
+        left: 40px;
+        width: 475px;
+        height: 630px;
+    }
+}
+
+/* Title */
+#scoreboard h1 {
+    color: #024a9c;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff;
+    text-transform: uppercase;
+}
+
+/* Baddies List */
+#baddies > li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    height: 94px;
+}
+#baddies > li > div.amt {
+    flex: 1;
+}
+.goomba {
+    background-color: #c97e51;
+}
+.bobomb {
+    background-color: #343659;
+}
+.cheepcheep {
+    background-color: #890000;
+}
+.amt {
+    background: url('img/coins.png') 20px center no-repeat;
+    background-size: 50px 55px;
+    color: #fff;
+    font-family: "Press Start 2P";
+    font-size: 46px;
+    line-height: 94px;
+    padding-left: 90px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+.avatar {
+    position: relative;
+}
+.avatar span {
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+}
+.score {
+    background: #fff;
+    position: relative;
+    width: 142px; /* 94px + 47px + 1px (middle border) */
+}
+.score input {
+    background-color: #191919;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    width: 94px;
+    height: 94px;
+}
+.score input[type=number]::-webkit-inner-spin-button,
+.score input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.score .arrow {
+    background-color: #191919;
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 47px;
+    height: 47px;
+}
+.score .arrow.up {
+    top: 0;
+}
+.score .arrow.down {
+    bottom: 0;
+}
+.score .arrow:before {
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+}
+.score .arrow.up:before {
+    border-bottom: 5px solid #fff;
+}
+.score .arrow.down:before {
+    border-top: 5px solid #fff;
+}
+.score .arrow:hover {
+    background-color: #000;
+}
+.score .arrow-divider {
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    height: 1px;
+    width: 47px;
+    z-index: 1;
+}
+@media (max-width: 768px) {
+    #baddies {
+        transform: scale(0.75);
+    }
+}
+@media (max-width: 460px) {
+    .score {
+        width: auto;
+    }
+    .score .arrow,
+    .score .arrow-divider {
+        display: none;
+    }
+    .amt {
+        font-size: 30px;
+    }
+}
+
+/* Total */
+.total {
+    color: #024a9c;
+    padding: 50px 0;
+    text-shadow:
+        -3px -3px 0 #fff,
+        3px -3px 0 #fff,
+        -3px 3px 0 #fff,
+        3px 3px 0 #fff;
+}
+.total-text {
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.total-text span {
+    display: block;
+    padding: 0 6px;
+    transform: rotate(8deg);
+}
+.total-text span:nth-child(even) {
+    transform: rotate(-8deg);
+}
+.total-amt {
+    display: block;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* =Footer
+----------------------------------------------- */
+
+#site-footer {
+    background-color: rgba(255,255,255,0.75);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+    color: #333;
+    font-size: 14px;
+    left: 0;
+    text-align: center;
+}
+#site-footer > .wrap {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+}
+#site-footer p {
+    padding: 20px;;
+}
+#site-footer li {
+    padding: 10px;
+}
+#site-footer a {
+    color: #024a9c;
+    text-decoration: none;
+}
+#site-footer a:hover {
+    color: #fe0d0c;
+}
+@media (min-width: 1050px) {
+    #site-footer {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    #site-footer > .wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #site-footer ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* =2x Images
+----------------------------------------------- */
+
+@media (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 144dpi) {
+    #scoreboard {
+        background-image: url('img/scoreboard-bg@2x.png');
+    }
+    .amt {
+        background-image: url('img/coins@2x.png');
+    }
+}
