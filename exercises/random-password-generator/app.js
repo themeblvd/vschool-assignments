@@ -13,9 +13,7 @@ function getPassword( pwLength ) {
     var possible = "!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
     for ( var i = 0; i < pwLength; i++ ) {
-
-        password += possible[ Math.floor( Math.random() * possible.length - 1 ) ];
-
+        password += possible[ Math.floor( Math.random() * possible.length + 1 ) ]; // Without + 1, we'd never get last char.
     }
 
     return password;
