@@ -1,0 +1,79 @@
+p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Super Mario";
+    src: url('../fonts/super-mario.ttf');
+}
+body {
+    color: #e81b1f;
+    font-family: Arial, serif;
+    font-size: 24px;
+    line-height: 1.4;
+}
+h1,
+h2 {
+    font-family: "Super Mario";
+}
+
+/* Layout */
+.site-container {
+    padding: 20px;
+    max-width: 900px;
+}
+@media (min-width: 940px) {
+    .site-container {
+        margin: 0 auto;
+    }
+}
+
+/* Header */
+.site-header {
+    background-color: #ffd40e;
+    padding: 30px 60px 24px 60px;
+}
+.site-header h1 {
+    line-height: 1;
+}
+
+/* Hero */
+.site-hero {
+    background-color: #e81b1f;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Content */
+.site-content {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+.site-content .wrap {
+    max-width: 340px;
+}
+.site-content h2 {
+    margin: 0 0 10px 0;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #ffd40e;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    height: 60px;
+}
+.site-footer img {
+    max-height: 100%;
+    width: auto;
+}
