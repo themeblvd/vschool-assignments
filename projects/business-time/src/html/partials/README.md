@@ -1,0 +1,1 @@
+These partials have been separated from the top-level template.html because they contain images. It seems that requiring them from `template.html` is the only way to get Webpack to parse the images into the stream, so they can be processed and added to the final `dist` directory.

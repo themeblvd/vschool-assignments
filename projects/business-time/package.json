@@ -1,0 +1,27 @@
+{
+    "name": "business-times",
+    "version": "1.0.0",
+    "author": "Jason Bobich",
+    "description": "",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "watch": "webpack --config webpack.config.js --watch"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "copy-webpack-plugin": "^4.5.1",
+        "css-loader": "^0.28.11",
+        "file-loader": "^1.1.11",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.4.0",
+        "node-sass": "^4.9.0",
+        "sass-loader": "^7.0.1",
+        "webpack": "^4.6.0",
+        "webpack-cli": "^2.0.15"
+    }
+}
