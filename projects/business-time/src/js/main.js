@@ -2,7 +2,7 @@
  * Include Sass.
  *
  * Include Sass and run it through Webpack build.
- * Will compile separately to /dist/assets/css/main.css.
+ * Will compile separately to /public/assets/css/main.css.
  */
 require( '../scss/main.scss' );
 

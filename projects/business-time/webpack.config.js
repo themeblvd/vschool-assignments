@@ -68,7 +68,7 @@ module.exports = {
     mode: siteMode,
     entry: './src/js/main.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'public'),
         filename: './assets/js/main.js'
     },
     plugins: htmlFiles.concat([

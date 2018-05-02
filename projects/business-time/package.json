@@ -7,7 +7,7 @@
     "scripts": {
         "build": "webpack --config webpack.config.js",
         "watch": "webpack --config webpack.config.js --watch",
-        "server": "browser-sync start --server 'dist' --files *"
+        "server": "browser-sync start --server 'public' --files *"
     },
     "devDependencies": {
         "babel-core": "^6.26.3",
