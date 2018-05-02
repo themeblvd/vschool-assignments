@@ -1,4 +1,4 @@
-# Business Times
+# Business Time
 
 @TODO
 
@@ -18,3 +18,4 @@ Below is a list of the dependencies in my `package.json` with brief explanations
 * `sass-loader` - Utilize `node-sass` on Webpack's extracted CSS from `css-loader`.
 * `mini-css-extract-plugin` - Add compiled CSS into its own file.
 * `copy-webpack-plugin` - Copy a manually made list of all url() included files from Sass. Needed because getting image url paths to resolve properly in HTML files from `html-webpack-plugin` plugin messes up url() include paths from `css-loader`.
+* `browser-sync` - Runs the local server to display website.

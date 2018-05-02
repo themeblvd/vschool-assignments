@@ -8,7 +8,7 @@ const path = require('path');
 
 const siteMode = 'development'; // 'production' to minify JS and CSS
 
-const siteTitle = 'Business Time';
+const siteTitle = 'We Do Nothing';
 
 const sitePages = [
     {
@@ -103,7 +103,8 @@ module.exports = {
             {from: 'src/font/muli-light.ttf', to: 'assets/font/muli-light.ttf'},
             {from: 'src/font/playfair-display-black.ttf', to: 'assets/font/playfair-display-black.ttf'},
             {from: 'src/font/playfair-display-regular.ttf', to: 'assets/font/playfair-display-regular.ttf'},
-            {from: 'src/font/libre-baskerville-italic.ttf', to: 'assets/font/libre-baskerville-italic.ttf'}
+            {from: 'src/font/libre-baskerville-italic.ttf', to: 'assets/font/libre-baskerville-italic.ttf'},
+            {from: 'src/font/icons.ttf', to: 'assets/font/icons.ttf'}
         ])
     ]),
     // devtool: 'source-map', // Generating .map, but couldn't get them to actually work?

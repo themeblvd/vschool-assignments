@@ -33,6 +33,20 @@
     .contact-menu {
         margin-left: auto;
     }
+    .contact-menu a {
+        font-size: 20px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+        transition: transform .5s $transition-timing;
+
+        &:hover {
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, .25);
+            transform: translate(0, -2px);
+        }
+        &:active {
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, .25);
+            transform: translate(0, 0);
+        }
+    }
 }
 @include max-width(lg) {
     .site-header {
