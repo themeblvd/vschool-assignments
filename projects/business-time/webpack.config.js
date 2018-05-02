@@ -48,20 +48,18 @@ const sitePages = [
  * This array then gets merged with any other
  * plugins passed into the webpack build.
  */
-var htmlFiles = [];
-
-for ( let i = 0; i < sitePages.length; i++ ) {
-    htmlFiles.push(
+var htmlFiles = sitePages.map( function( page ) {
+    return (
         new HtmlWebpackPlugin({
-            filename: `${sitePages[i].slug}.html`,
-            title: `${siteTitle} - ${sitePages[i].title}`,
-            template: `./src/html/${sitePages[i].template}`,
-            name: sitePages[i].title,
-            page: sitePages[i].slug,
+            filename: `${page.slug}.html`,
+            title: `${siteTitle} - ${page.title}`,
+            template: `./src/html/${page.template}`,
+            name: page.title,
+            page: page.slug,
             sitePages: sitePages
         })
     )
-}
+} );
 
 /*
  * Configure Webpack.
