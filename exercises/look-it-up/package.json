@@ -1,0 +1,16 @@
+{
+  "name": "look-it-up",
+  "version": "1.0.0",
+  "description": "A project for practicing unit testing.",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jason",
+  "license": "ISC"
+}
