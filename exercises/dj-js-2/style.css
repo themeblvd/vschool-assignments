@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 40px auto;
+}
+.square {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2%;
+    transition: background-color .2s ease-in-out,
+                box-shadow .2s ease-in-out,
+                transform .2s ease-in-out;
+    width: 32%;
+    height: auto;
+}
+.square:hover {
+    background-color: #119ce5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transform: translate(0, -2px);
+}
+.square:before {
+    content: "";
+    float: left;
+    padding-top: 100%;
+}
