@@ -1,0 +1,57 @@
+{
+    "appetizers" :[
+        {
+            "name" : "Onion Rings",
+            "ingredients" : ["onions", "grease"],
+            "description" : "Deep-fried, breaded onions, in the shape of rings."
+        },
+        {
+            "name" : "Cheesey Bread",
+            "ingredients" : ["bread", "cheese"],
+            "description" : "Bread that's cheesy."
+        }
+    ],
+    "cold sandwiches" :[
+        {
+            "name" : "BLT",
+            "ingredients" : ["bacon", "lettuce", "tomato"],
+            "description" : "You know what a BLT is is."
+        },
+        {
+            "name" : "Tuna",
+            "ingredients" : ["tuna", "cheese", "mayo"],
+            "description" : "Tuna sandwich."
+        }
+    ],
+    "hot sandwiches" :[
+        {
+            "name" : "Meatball",
+            "ingredients" : ["tomato sauce", "meatballs"],
+            "description" : "Classic meatballs on a sandwhich with tomato sauce."
+        },
+        {
+            "name" : "Chicken Melt",
+            "ingredients" : ["chicken", "cheese"],
+            "description" : "Cheese melted over chicken."
+        }
+    ],
+    "desserts" :[
+        {
+            "name" : "Chocolate Cake",
+            "ingredients" : ["chocolate", "cake"],
+            "description" : "Cake frosted with chocolate."
+        }
+    ],
+    "drinks" :[
+        {
+            "name" : "Orange Juice",
+            "ingredients" : ["oranges"],
+            "description" : "A liquid made from oranges that you drink."
+        },
+        {
+            "name" : "Coke",
+            "ingredients" : ["sugar", "poison"],
+            "description" : "A sugary treat."
+        }
+    ]
+}
