@@ -11,7 +11,7 @@
             "description" : "Bread that's cheesy."
         }
     ],
-    "cold sandwiches" :[
+    "coldSandwiches" :[
         {
             "name" : "BLT",
             "ingredients" : ["bacon", "lettuce", "tomato"],
@@ -23,7 +23,7 @@
             "description" : "Tuna sandwich."
         }
     ],
-    "hot sandwiches" :[
+    "hotSandwiches" :[
         {
             "name" : "Meatball",
             "ingredients" : ["tomato sauce", "meatballs"],
