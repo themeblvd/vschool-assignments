@@ -118,12 +118,17 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
-                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: MiniCssExtractPlugin.loader,
+                    },
                     {
                         loader: 'css-loader',
                         options: {
                             url: false // url() includes disabled, see CopyWebpackPlugin() comments above.
                         }
+                    },
+                    {
+                        loader: 'postcss-loader'
                     },
                     {
                         loader: 'sass-loader',
