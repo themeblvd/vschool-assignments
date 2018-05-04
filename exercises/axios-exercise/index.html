@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Axios Todo Practice</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <div id="app">
+
+            <table class="todo-list">
+                <tr>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>Complete</th>
+                    <th>Actions</th>
+                </tr>
+            </table>
+
+            <form name="add">
+                <p>
+                    <label>Title</label>
+                    <input name="title" type="text">
+                </p>
+                <p>
+                    <label>Price</label>
+                    <input name="price" type="number">
+                </p>
+                <p>
+                    <label>Description</label>
+                    <textarea name="description"></textarea>
+                </p>
+                <button>Add New Item</button>
+            </form>
+
+        </div>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
