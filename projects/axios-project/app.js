@@ -34,7 +34,6 @@
 
         axios.post(`https://api.vschool.io/${user}/todo`, newItem)
             .then(function(response){
-                console.log(response.data);
                 addTodoItem(response.data);
             })
             .catch(function(error){
