@@ -13,6 +13,7 @@ Below is a list of the dependencies in my `package.json` with brief explanations
 * `babel-preset-env` - Lets me specify the browsers I want to have backwards-compat for, with Babel.
 * `html-webpack-plugin` - Generate site's static html files.
 * `html-loader` - Include HTML partials within `html-webpack-plugin` template.
+* `file-loader` - Process images in stream, coming from HTML.
 * `css-loader` - Get Sass from a `.scss` filed included via `require()` in JavaScript file.
 * `node-sass` - Sass compiling in Node.
 * `sass-loader` - Utilize `node-sass` on Webpack's extracted CSS from `css-loader`.
