@@ -1,0 +1,85 @@
+html	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^<html lang="en" dir="ltr">$/;"	function	line:2
+head	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^    <head>$/;"	function	line:3
+meta	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^        <meta charset="utf-8">$/;"	function	line:4
+title	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^        <title><\/title>$/;"	function	line:5
+link	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^        <link rel="stylesheet" href="style.css">$/;"	function	line:6
+body	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^    <body>$/;"	function	line:8
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^        <div class="container">$/;"	function	line:9
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^            <div class="grid grid-1">$/;"	function	line:11
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box red"><\/div>$/;"	function	line:12
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box blue"><\/div>$/;"	function	line:13
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box green"><\/div>$/;"	function	line:14
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box purple"><\/div>$/;"	function	line:15
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box yellow"><\/div>$/;"	function	line:16
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^            <div class="grid grid-2">$/;"	function	line:19
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box red"><\/div>$/;"	function	line:20
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box blue"><\/div>$/;"	function	line:21
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box green"><\/div>$/;"	function	line:22
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box purple"><\/div>$/;"	function	line:23
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box purple"><\/div>$/;"	function	line:24
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^            <div class="grid grid-3">$/;"	function	line:27
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box blue"><\/div>$/;"	function	line:28
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box red"><\/div>$/;"	function	line:29
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box blue"><\/div>$/;"	function	line:30
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box red"><\/div>$/;"	function	line:31
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box red"><\/div>$/;"	function	line:32
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box blue"><\/div>$/;"	function	line:33
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box red"><\/div>$/;"	function	line:34
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box blue"><\/div>$/;"	function	line:35
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box blue"><\/div>$/;"	function	line:36
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box red"><\/div>$/;"	function	line:37
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box blue"><\/div>$/;"	function	line:38
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box red"><\/div>$/;"	function	line:39
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^            <div class="grid grid-4">$/;"	function	line:42
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box grey header">$/;"	function	line:43
+p	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                    <p>Header<\/p>$/;"	function	line:44
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box grey-dark sidebar">$/;"	function	line:46
+p	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                    <p>Sidebar<\/p>$/;"	function	line:47
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box grey-dark content">$/;"	function	line:49
+p	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                    <p>Content<\/p>$/;"	function	line:50
+p	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>$/;"	function	line:51
+p	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                    <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.<\/p>$/;"	function	line:52
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box grey-light sidebar-2">$/;"	function	line:54
+p	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                    <p>Sidebar 2<\/p>$/;"	function	line:55
+div	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                <div class="box grey footer">$/;"	function	line:57
+p	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/index.html	/^                    <p>Footer<\/p>$/;"	function	line:58
+html	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^html,$/;"	function	line:1
+body	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^body {$/;"	function	line:2
+*	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^* {$/;"	function	line:8
+.container	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.container {$/;"	function	line:11
+.grid	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid {$/;"	function	line:18
+.box	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.box {$/;"	function	line:24
+.grid-1	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-1 {$/;"	function	line:29
+.grid-1 .box:nth-child(1)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-1 .box:nth-child(1) {$/;"	function	line:33
+.grid-1 .box:nth-child(2)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-1 .box:nth-child(2) {$/;"	function	line:36
+.grid-1 .box:nth-child(3)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-1 .box:nth-child(3) {$/;"	function	line:39
+.grid-1 .box:nth-child(4)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-1 .box:nth-child(4) {$/;"	function	line:42
+.grid-1 .box:nth-child(5)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-1 .box:nth-child(5) {$/;"	function	line:45
+.grid-2	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-2 {$/;"	function	line:50
+.grid-2 .box:nth-child(1)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-2 .box:nth-child(1) {$/;"	function	line:54
+.grid-2 .box:nth-child(2)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-2 .box:nth-child(2) {$/;"	function	line:57
+.grid-2 .box:nth-child(3)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-2 .box:nth-child(3) {$/;"	function	line:61
+.grid-3	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-3 {$/;"	function	line:66
+.grid-3 .box	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-3 .box {$/;"	function	line:69
+.grid-4	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-4 {$/;"	function	line:74
+.grid-4 .box	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-4 .box {$/;"	function	line:77
+.grid-4 p	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-4 p {$/;"	function	line:81
+.grid-4 p:last-child	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grid-4 p:last-child {$/;"	function	line:84
+@media (min-width: 768px)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^@media (min-width: 768px) {$/;"	function	line:87
+.grid-4	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^    .grid-4 {$/;"	function	line:88
+.grid-4 .header	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^    .grid-4 .header {$/;"	function	line:92
+.grid-4 .sidebar	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^    .grid-4 .sidebar {$/;"	function	line:95
+.grid-4 .content	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^    .grid-4 .content {$/;"	function	line:98
+.grid-4 .sidebar-2	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^    .grid-4 .sidebar-2,$/;"	function	line:101
+.grid-4 .footer	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^    .grid-4 .footer {$/;"	function	line:102
+@media (min-width: 992px)	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^@media (min-width: 992px) {$/;"	function	line:106
+.grid-4 .content	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^    .grid-4 .content {$/;"	function	line:107
+.grid-4 .sidebar-2	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^    .grid-4 .sidebar-2 {$/;"	function	line:110
+.blue	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.blue {$/;"	function	line:116
+.green	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.green {$/;"	function	line:119
+.purple	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.purple {$/;"	function	line:122
+.red	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.red {$/;"	function	line:125
+.yellow	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.yellow {$/;"	function	line:128
+.grey	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grey {$/;"	function	line:131
+.grey-dark	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grey-dark {$/;"	function	line:134
+.grey-light	/Users/jason_bobich/Sites/vschool/assignments/exercises/css-grid-practice/style.css	/^.grey-light {$/;"	function	line:137
