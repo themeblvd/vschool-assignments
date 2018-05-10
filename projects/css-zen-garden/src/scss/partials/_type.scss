@@ -1,0 +1,73 @@
+//
+// General
+//
+
+body {
+    background-color: #fff;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 70%; // About 11px.
+}
+h1,
+h2,
+h3 {
+    line-height: normal;
+}
+a {
+    color: #0d8ba1;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+    &:visited {
+        color: #1a5952;
+    }
+}
+
+//
+// Utilities
+//
+
+abbr {
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.01em;
+}
+.hide-on-mobile {
+    display: none;
+}
+@media (min-width: 600px) {
+    .hide-on-mobile {
+        display: block;
+    }
+}
+
+//
+// Content
+//
+
+.content {
+    color: #325050;
+
+    h3 {
+        color: #2e484c;
+        font-family: "Julius Sans One", sans-serif;
+        font-size: 1.8em;
+        font-weight: 400;
+        margin: 0;
+        margin: 2em 0 0 0;
+        text-transform: uppercase;
+    }
+    h3:first-child {
+        margin: 0;
+    }
+    p {
+        font-size: 1.2em;
+        line-height: 2;
+        margin: 1em 0;
+    }
+    p:first-child {
+        margin-top: 0;
+    }
+}

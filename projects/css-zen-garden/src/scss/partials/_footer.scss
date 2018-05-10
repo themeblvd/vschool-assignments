@@ -1,0 +1,118 @@
+//
+// Footer Info
+//
+
+.footer-info {
+    color: rgba(255, 255, 255, 0.4);
+    background: #3e5d67;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url('../img/contours.png'),
+                      url('../img/gridlines.png'),
+                      url('../img/noise.png'),
+                      url('../img/koi.jpg');
+    background-position: 0 0, -5px -25px, 0 0, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    font-size: 2em;
+    font-style: italic;
+    line-height: 2;
+    padding: 1em 6%;
+    text-align: center;
+
+    @media (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+        background-image: url('../img/contours@2x.png'),
+                          url('../img/gridlines.png'),
+                          url('../img/noise.png'),
+                          url('../img/koi.jpg');
+        background-size: 50% auto, auto, auto, cover;
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.7);
+        font-style: normal;
+    }
+}
+
+//
+// Footer Nav
+//
+
+.footer-menu {
+    background: #134347;
+    padding: 3em 10%;
+
+    ul {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    li {
+        line-height: 1.2;
+        margin: 0 0.5em;
+    }
+    a {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0;
+        display: block;
+        line-height: 40px;
+        padding: 2px;
+        overflow: hidden;
+        text-align: center;
+        transition: color 0.2s ease-out;
+        width: 40px;
+        height: 40px;
+    }
+    a:hover {
+        color: rgba(255, 255, 255, 0.3);
+        text-decoration: none;
+    }
+    a:before {
+        font-family: 'verdemoderna';
+        font-size: 36px;
+        -webkit-font-smoothing: antialiased;
+    }
+    .html:before {
+        content: "5";
+    }
+    .html:hover:before {
+        content: "%";
+    }
+    .css:before {
+        content: "3";
+    }
+    .css:hover:before {
+        content: "#";
+    }
+    .license:before {
+        content: "c";
+    }
+    .license:hover:before {
+        content: "C";
+    }
+    .accessibility:before {
+        content: "a";
+    }
+    .accessibility:hover:before {
+        content: "A";
+    }
+    .github:before {
+        content: "g";
+    }
+    .github:hover:before {
+        content: "G";
+    }
+}
+
+@media (min-width: 500px) {
+    .footer-menu {
+        a {
+            line-height: 52px;
+            margin: 0 22px;
+            width: 52px;
+            height: 52px;
+        }
+        a:before {
+            font-size: 48px;
+        }
+    }
+}

@@ -1,0 +1,168 @@
+//
+// Content
+//
+
+.content {
+    padding: 3em 10%;
+
+    &.inverse {
+        background-color: rgba(138,188,159,0.5);
+        background-image: url('../img/contours-opaque.png'), url('../img/gridlines-opaque.png'), url('../img/bamboo.png');
+        background-repeat: repeat, repeat, no-repeat;
+        background-size: auto, auto, cover;
+        background-attachment: fixed, fixed, fixed;
+    }
+}
+
+//
+// Download Links
+//
+
+.html-link,
+.css-link {
+    border-radius: 1px;
+    color: #809b7e;
+    font-family: 'Julius Sans One', sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 1px 10px 1px 32px;
+    text-transform: uppercase;
+    transition: background-color .2s ease-in-out;
+
+    &:hover {
+        background: #3d8a9f;
+        color: #fff;
+        text-decoration: none;
+    }
+    &:before {
+        content: "D";
+        background: #d9e1cd;
+        color: #a9b995;
+        font-family: 'verdemoderna';
+        font-size: 1.2em;
+        line-height: 18px;
+        padding: 2px;
+        position: absolute;
+        top: 50%;
+        left: 4px;
+        text-align: center;
+        transform: translate(0, -50%);
+        width: 20px;
+        height: 18px;
+    }
+}
+
+//
+// Sidebars
+//
+
+.sidebar {
+    background: #edf4f0;
+    position: relative;
+}
+
+//
+// Design Selection
+//
+
+.design-selection {
+    ul {
+        width: 100%;
+    }
+    li {
+        border-top: 1px solid #d9e3dc;
+        color: #c0cac3;
+        font-size: 1.2em;
+        font-style: italic;
+        padding: 1.2em 5%;
+    }
+    li:first-child {
+        border-top: none;
+    }
+    .design-title {
+        color: #607476;
+        display: block;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.2em;
+        font-style: normal;
+        margin-bottom: 0.4em;
+        text-transform: uppercase;
+    }
+    .design-title:hover {
+        color: #49968e;
+        text-decoration: none;
+    }
+    .designer {
+        color: #616857;
+        font-size: 0.9em;
+        font-style: normal;
+    }
+    .designer:hover {
+        color: #49968e;
+        text-decoration: none;
+    }
+}
+
+//
+// Resources
+//
+
+.resources {
+    background-color: #d0dbd5;
+
+    &:after {
+        content: "";
+        background-attachment: fixed;
+        background-color: rgba(112, 175, 140, 0.3);
+        background-image: url('../img/contours-opaque.png'), url('../img/gridlines-opaque.png'), url('../img/bamboo.png');
+        background-repeat: repeat, repeat, no-repeat;
+        background-size: auto, auto, cover;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+    ul {
+        position: relative;
+        width: 100%;
+        z-index: 2;
+    }
+    li {
+        border-top: solid 1px #a0b9ad;
+        font-size: 1.2em;
+        padding: 1.2em 5%;
+    }
+    a {
+        display: block;
+        color: #607476;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.2em;
+        font-style: normal;
+        margin-bottom: 0.25em;
+        text-transform: uppercase;
+    }
+    a:hover {
+        color: #49968e;
+        text-decoration: none;
+    }
+}
+
+//
+// Design Selection / Resources >= 320px
+//
+
+@media (min-width: 320px) {
+    .resources,
+    .design-selection {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        li {
+            width: 50%;
+        }
+    }
+}
