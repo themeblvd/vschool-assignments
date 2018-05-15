@@ -4,10 +4,10 @@ render	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-inf
 export.backgroundColor	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/Box.js	/^        var style = {$/;"	property	line:6
 *	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^* {$/;"	function	line:1
 body	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^body {$/;"	function	line:4
-.app	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.app {$/;"	function	line:7
-h1	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^h1 {$/;"	function	line:11
-.boxes	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.boxes {$/;"	function	line:16
-.box	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box {$/;"	function	line:22
-.box span	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box span {$/;"	function	line:27
-.box .hex	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box .hex {$/;"	function	line:30
-.box .desc	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box .desc {$/;"	function	line:34
+.app	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.app {$/;"	function	line:8
+h1	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^h1 {$/;"	function	line:12
+.boxes	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.boxes {$/;"	function	line:17
+.box	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box {$/;"	function	line:23
+.box span	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box span {$/;"	function	line:28
+.box .hex	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box .hex {$/;"	function	line:31
+.box .desc	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box .desc {$/;"	function	line:35
