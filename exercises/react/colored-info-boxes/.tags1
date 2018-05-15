@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+*	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^* {$/;"	function	line:1
+body	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^body {$/;"	function	line:4
+.app	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.app {$/;"	function	line:7
+h1	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^h1 {$/;"	function	line:11
+.boxes	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.boxes {$/;"	function	line:16
+.box	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box {$/;"	function	line:22
+.box span	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box span {$/;"	function	line:27
+.box .hex	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box .hex {$/;"	function	line:30
+.box .desc	/Users/jason_bobich/Sites/vschool/assignments/exercises/react/colored-info-boxes/src/App.css	/^.box .desc {$/;"	function	line:34
