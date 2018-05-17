@@ -1,0 +1,83 @@
+.components-header {
+    background: url('../../assets/img/home-bg.jpg') center center;
+    background-size: cover;
+    position: relative;
+
+    &:before {
+        content: '';
+        background: rgba(33, 37, 41, 0.5);
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    /* Main Header */
+    .site-header {
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        padding: 0.5rem 1rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        transition: background-color 0.2s ease-in-out;
+        z-index: 3;
+
+        &.fill {
+            background-color: #fff;
+            border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+        }
+        > .wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .site-logo {
+            color: #fff;
+            font-size: 1.25rem;
+            font-weight: 800;
+            display: block;
+            padding: 10px 20px;
+
+            &:hover {
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+        &.fill .site-logo {
+            color: #212529;
+
+            &:hover {
+                color: #0085a1;
+            }
+        }
+    }
+
+    /* Hero Content */
+    .content {
+        color: #fff;
+        padding: 200px 0 150px;
+        position: relative;
+        text-align: center;
+        z-index: 2;
+
+        @media (min-width: 768px) {
+            padding: 200px 0;
+        }
+
+        h1 {
+            font-size: 80px;
+        }
+        .tagline {
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+                sans-serif;
+            font-size: 24px;
+            font-weight: 300;
+            display: block;
+            line-height: 1.1;
+            margin: 10px 0 0;
+        }
+    }
+}

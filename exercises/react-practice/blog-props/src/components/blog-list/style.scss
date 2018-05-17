@@ -1,0 +1,23 @@
+.components-blog-list {
+    margin: 70px auto;
+    max-width: 760px;
+
+    .button {
+        background-color: #0085a1;
+        color: #fff;
+        display: inline-block;
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        float: right;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        padding: 15px 25px;
+        text-transform: uppercase;
+        transition: background-color 0.15s ease-in-out;
+    }
+    .button:hover,
+    .button:focus {
+        background-color: #00657b;
+    }
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: #fff;
+    font-family: Lora, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #212529;
+    line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+}
+a {
+    text-decoration: none;
+}
+::-moz-selection {
+    color: #fff;
+    background: #0085a1;
+    text-shadow: none;
+}
+
+::selection {
+    color: #fff;
+    background: #0085a1;
+    text-shadow: none;
+}
