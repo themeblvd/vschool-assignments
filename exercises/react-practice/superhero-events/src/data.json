@@ -1,0 +1,54 @@
+{
+    "heroes": [
+        {
+            "name": "Batman",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/batman_blue.jpg",
+            "catchphrase": "I only work in black. And very very dark grey."
+        },
+        {
+            "name": "He-Man",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/he_man.jpg",
+            "catchphrase": "Let the power return!"
+        },
+        {
+            "name": "Hellboy",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/hellboy.jpg",
+            "catchphrase": "Son of a-"
+        },
+        {
+            "name": "Hulk",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/hulk.jpg",
+            "catchphrase": "You won't like me when I'm angry."
+        },
+        {
+            "name": "Iron Man",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/ironman.jpg",
+            "catchphrase": "I told you. I don't want to join your super-secret boy band."
+        },
+        {
+            "name": "Minion",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/minion.jpg",
+            "catchphrase": "Bello!"
+        },
+        {
+            "name": "Mr T.",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/mr_t.jpg",
+            "catchphrase": "I pitty the fool."
+        },
+        {
+            "name": "Robocop",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/robocop_.jpg",
+            "catchphrase": ""
+        },
+        {
+            "name": "Rocket Raccoon",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/rocket_raccoon.jpg",
+            "catchphrase": "Dead or alive your coming with me."
+        },
+        {
+            "name": "Terminator",
+            "avatar": "http://www.designbolts.com/wp-content/uploads/2014/08/terminator.jpg",
+            "catchphrase": "I'll be back."
+        }
+    ]
+}
