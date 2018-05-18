@@ -1,0 +1,34 @@
+@import 'partials/reset';
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+h1:before {
+    content: '~';
+}
+ul {
+    margin: 20px;
+}
+label {
+    display: none;
+}
+input {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+button {
+    background: #101010;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+button:hover {
+    background: #000;
+}
