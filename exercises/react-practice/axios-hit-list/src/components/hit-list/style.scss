@@ -1,0 +1,29 @@
+.hit-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        padding-top: 33.3%;
+        position: relative;
+        width: 33.3%;
+    }
+    .person {
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+    h2 {
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+}
