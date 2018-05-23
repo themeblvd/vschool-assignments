@@ -1,3 +1,12 @@
+/**
+ * Letter Frequency
+ *
+ * Find the frequency of all the letters in a given
+ * word or phrase, and print them to the console.
+ *
+ * @link https://coursework.vschool.io/letter-frequency/
+ */
+
 console.log( letterFrequency( 'slimy smelly solution' ) );
 
 function letterFrequency( phrase ) {

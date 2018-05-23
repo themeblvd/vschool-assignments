@@ -1,3 +1,13 @@
+/**
+ * No Duplicates
+ *
+ * Given a string, your task is to remove any
+ * duplicated letters from it. Any letters you
+ * remove should be added to another string
+ * called "duplicates".
+ *
+ * @link https://coursework.vschool.io/no-duplicates/
+ */
 
 var input = "bookkeeper larry";
 var noDuplicates = [];

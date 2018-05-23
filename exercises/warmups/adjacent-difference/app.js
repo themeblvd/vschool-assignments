@@ -1,3 +1,13 @@
+/**
+ * Adjacent Difference
+ *
+ * Given an array of strings, find the 3 adjacent elements
+ * with the longest combined length. Return them in the
+ * form of an array.
+ *
+ * @link https://coursework.vschool.io/adjacent-difference/
+ */
+
 function adjacentDifference(input) {
     var output = ["", "", ""];
 

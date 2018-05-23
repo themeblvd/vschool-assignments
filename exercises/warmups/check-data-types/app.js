@@ -1,3 +1,14 @@
+/**
+ * Check Data Types
+ * 
+ * Given a multi-dimensional array containing only
+ * primitive data types (strings, booleans, and numbers),
+ * write a function that returns whether EACH element within
+ * each subarray belongs to the same data type.
+ *
+ * @link https://coursework.vschool.io/check-data-types/
+ */
+
 function checkTypes(arr) {
     for (let i = 0; i < arr.length - 1; i++) {
         if (typeof arr[i][0] !== typeof arr[i + 1][0]) {

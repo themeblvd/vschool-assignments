@@ -5,6 +5,8 @@
  * random password including uppercase, lowercase, numeric,
  * and symbol characters. The function should accept one
  * argument, an integer defining how long the password should be.
+ *
+ * @link https://coursework.vschool.io/random-password-generator-2/
  */
 function getPassword( pwLength ) {
 

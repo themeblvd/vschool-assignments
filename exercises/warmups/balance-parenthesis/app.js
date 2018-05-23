@@ -1,3 +1,16 @@
+/**
+ * Balance Parentheses
+ *
+ * Given a string including parentheses, write a function
+ * that returns true if every opening parenthesis has a
+ * closing parenthesis.
+ *
+ * Also, every closing parentheses needs an opening partner
+ * before it.
+ *
+ * @link https://coursework.vschool.io/balance-parenthesis/
+ */
+
 function balanceParentheses(str) {
     var open = [];
 

@@ -10,6 +10,8 @@
  *
  * 3. If the number is divisible by both 3 and 5, replace it
  * with "fizzbuzz".
+ *
+ * @link https://coursework.vschool.io/fizz-buzz/
  */
 function fizzBuzz(){
 
