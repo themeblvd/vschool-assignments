@@ -1,0 +1,155 @@
+//
+// Variables
+//
+
+$max-width: 800px;
+
+$clr-home: #0abde3;
+$clr-about: #ee5253;
+$clr-services: #341f97;
+$clr-contact: #10ac84;
+$clr-404: #222f3e;
+
+//
+// Content
+//
+
+.app {
+    .page {
+        padding: 80px 50px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        min-height: 100vh;
+        // transform: translate(-100%, 0);
+        z-index: 1;
+    }
+    .page-home {
+        background-color: $clr-home;
+    }
+    .page-about {
+        background-color: $clr-about;
+    }
+    .page-services {
+        background-color: $clr-services;
+    }
+    .page-contact {
+        background-color: $clr-contact;
+    }
+    .page-404 {
+        background-color: $clr-404;
+    }
+    .page > .wrap {
+        margin: 0 auto;
+        max-width: $max-width;
+    }
+}
+
+//
+// Page Animation
+//
+.page {
+    &.slide-enter {
+        transform: translate(100%, 0);
+    }
+    &.slide-enter-active,
+    &.slide-enter-done {
+        transform: translate(0, 0);
+        transition: transform 0.4s ease-in;
+    }
+    &.slide-exit-active,
+    &.slide-exit-done {
+        transform: translate(-100%, 0);
+        transition: transform 0.4s ease-in;
+    }
+}
+
+//
+// Header
+//
+
+.site-header {
+    background: #101010;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+
+    .site-nav {
+        border-left: 1px solid #000;
+        display: flex;
+        margin: 0 auto;
+        max-width: $max-width;
+    }
+    li {
+        border-right: 1px solid #000;
+    }
+    a {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+        display: block;
+        letter-spacing: 1px;
+        line-height: 1;
+        padding: 18px 22px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: background-color 0.2s ease-in;
+    }
+    a:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    .home-active,
+    .home-active:hover {
+        background-color: $clr-home;
+    }
+    .about-active,
+    .about-active:hover {
+        background-color: $clr-about;
+    }
+    .services-active,
+    .services-active:hover {
+        background-color: $clr-services;
+    }
+    .contact-active,
+    .contact-active:hover {
+        background-color: $clr-contact;
+    }
+    .404-active,
+    .404-active:hover {
+        background-color: $clr-404;
+    }
+}
+
+//
+// Footer
+//
+
+.site-footer {
+    background: #101010;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    z-index: 2;
+
+    p {
+        margin: 0;
+    }
+    a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+        color: rgba(255, 255, 255, 0.75);
+        text-decoration: none;
+    }
+    a:hover {
+        color: #fff;
+        border-bottom-color: #fff;
+    }
+}
