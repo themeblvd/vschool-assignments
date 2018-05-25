@@ -1,0 +1,78 @@
+.app {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px;
+
+    .contact-form {
+        margin-right: 20px;
+        width: 33.3%;
+    }
+    .contacts,
+    .no-contacts {
+        width: 66.6%;
+    }
+    .contacts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: 1fr;
+    }
+}
+
+//
+// Contact Display
+//
+
+.contact {
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    list-style: none;
+    margin: 0;
+    padding: 20px 30px;
+    width: 100%;
+
+    .btn {
+        background-color: #c0392b;
+        color: #fff;
+        margin-top: 10px;
+
+        &:hover,
+        &:focus {
+            background-color: #e74c3c;
+        }
+    }
+}
+.no-contacts {
+    background: #eee;
+    border: 2px dashed #ddd;
+    padding: 50px;
+    text-align: center;
+}
+
+//
+// Form
+//
+
+h2 {
+    font-size: 20px;
+}
+.contact-form {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 40px;
+
+    .btn {
+        background-color: #3498db;
+        color: #fff;
+
+        &:hover,
+        &:focus {
+            background-color: #2980b9;
+            color: #fff;
+        }
+    }
+}
