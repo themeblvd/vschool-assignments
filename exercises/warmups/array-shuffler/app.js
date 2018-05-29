@@ -1,3 +1,12 @@
+/**
+ * Array Shuffler
+ *
+ * Write a function that takes an array as a parameter
+ * and returns a new array with the contents randomly
+ * "shuffled".
+ *
+ * @link https://coursework.vschool.io/array-shuffler/
+ */
 function shuffle(arr) {
     var shuffled = [];
 
