@@ -1,0 +1,73 @@
+{
+    "name": "full-stack-todo",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "npm run build:client && npm run build:server",
+        "build:client": "NODE_ENV=development webpack --config webpack.config.client.js",
+        "build:server": "NODE_ENV=development webpack --config webpack.config.server.js",
+        "build:production": "npm run build:production:client && npm run build:production:server",
+        "build:production:client": "NODE_ENV=production webpack --config webpack.config.client.js",
+        "build:production:server": "NODE_ENV=production webpack --config webpack.config.server.js",
+        "watch": "NODE_ENV=development webpack client/webpack.config.js --watch",
+        "server": "nodemon dist/server.js",
+        "js-lint": "eslint src/**/*.js",
+        "js-lint:fix": "eslint src/**/*.js --fix"
+    },
+    "author": "Jason Bobich",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "*",
+        "axios": "*",
+        "babel-core": "*",
+        "babel-loader": "*",
+        "babel-preset-env": "*",
+        "babel-preset-react": "*",
+        "babel-preset-react-app": "*",
+        "body-parser": "*",
+        "cors": "*",
+        "css-loader": "*",
+        "express": "*",
+        "file-loader": "*",
+        "html-webpack-plugin": "*",
+        "mongoose": "*",
+        "morgan": "*",
+        "mini-css-extract-plugin": "*",
+        "node-sass": "*",
+        "postcss-loader": "*",
+        "prop-types": "*",
+        "react": "*",
+        "react-dom": "*",
+        "react-redux": "*",
+        "redux": "*",
+        "redux-thunk": "*",
+        "sass-loader": "*",
+        "webpack": "*",
+        "webpack-cli": "*"
+    },
+    "devDependencies": {
+        "eslint": "*",
+        "eslint-config-prettier": "*",
+        "eslint-config-react-app": "*",
+        "eslint-plugin-prettier": "*",
+        "eslint-plugin-react": "*",
+        "nodemon": "*",
+        "prettier": "*"
+    },
+    "browserslist": [
+        "last 1 major version",
+        ">= 1%",
+        "Chrome >= 45",
+        "Firefox >= 38",
+        "Edge >= 12",
+        "Explorer >= 10",
+        "iOS >= 9",
+        "Safari >= 9",
+        "Android >= 4.4",
+        "Opera >= 30"
+    ],
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true
+    }
+}
